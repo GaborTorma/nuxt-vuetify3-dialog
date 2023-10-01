@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-	modules: ['../src/module'],
+	modules: ['vuetify-nuxt-module', '../src/module'],
 
 	vuetify3Dialog: {},
 
