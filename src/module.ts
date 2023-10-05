@@ -1,19 +1,48 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import type { PluginOptions } from 'vuetify3-dialog'
 
 // Module options TypeScript interface definition
-export interface ModuleOptions {}
+export interface ModuleOptions extends Omit<PluginOptions, 'vuetify'> {
+	debug?: boolean
+	verbose?: boolean
+}
+
+declare module '@nuxt/schema' {
+	// eslint-disable-next-line no-unused-vars
+	interface NuxtConfig {
+		vuetify3Dialog?: ModuleOptions
+	}
+	// eslint-disable-next-line no-unused-vars
+	interface PublicRuntimeConfig {
+		vuetify3Dialog: Partial<ModuleOptions>
+	}
+}
 
 export default defineNuxtModule<ModuleOptions>({
 	meta: {
 		name: 'nuxt-vuetify3-dialog',
 		configKey: 'vuetify3Dialog',
+		compatibility: {
+			nuxt: '^3.0.0',
+		},
 	},
 	// Default configuration options of the Nuxt module
-	defaults: {},
+	defaults: {
+		debug: false,
+	},
 	setup(options, nuxt) {
-		const resolver = createResolver(import.meta.url)
+		const debug = (message: string) =>
+			options.debug && console.log(`nuxt-vuetify3-dialog: ${message}`, new Date())
+		debug('setup started')
 
-		// Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
+		nuxt.options.runtimeConfig.public.vuetify3Dialog = options
+
+		if (options.verbose) {
+			console.log('nuxt-vuetify3-dialog options:', options)
+		}
+
+		const resolver = createResolver(import.meta.url)
 		addPlugin(resolver.resolve('./runtime/plugin'))
+		debug(`vuetify3 dialog plugin added`)
 	},
 })

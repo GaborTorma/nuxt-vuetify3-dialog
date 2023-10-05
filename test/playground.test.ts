@@ -10,6 +10,6 @@ describe('ssr', async () => {
 	it('renders the index page', async () => {
 		// Get response to a server-rendered page with `$fetch`.
 		const html = await $fetch('/')
-		expect(html).toContain('playground')
+		expect(html).toContain('notify')
 	})
 })
