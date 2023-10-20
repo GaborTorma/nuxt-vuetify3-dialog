@@ -1,5 +1,15 @@
 export default defineNuxtConfig({
-	modules: ['../src/module', 'vuetify-nuxt-module'],
+	modules: [
+		'../src/module',
+		[
+			'vuetify-nuxt-module',
+			{
+				/* vuetifyOptions: {
+					labComponents: ['VBottomSheet'],
+				}, */
+			},
+		],
+	],
 
 	vuetify3Dialog: {
 		debug: true,
@@ -7,6 +17,4 @@ export default defineNuxtConfig({
 	},
 
 	devtools: { enabled: false },
-
-
 })

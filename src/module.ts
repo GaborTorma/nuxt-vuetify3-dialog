@@ -36,6 +36,10 @@ export default defineNuxtModule<ModuleOptions>({
 		debug('setup started')
 
 		nuxt.options.runtimeConfig.public.vuetify3Dialog = options
+		if (nuxt.options.ssr) {
+			nuxt.options.build.transpile.push('vuetify3-dialog')
+			debug('add vuetify3-dialog to transpile')
+		}
 
 		if (options.verbose) {
 			console.log('nuxt-vuetify3-dialog options:', options)

@@ -1,5 +1,5 @@
-import { defineNuxtPlugin, useNuxtApp } from '#app'
 import { Vuetify3Dialog } from 'vuetify3-dialog'
+import { defineNuxtPlugin, useNuxtApp } from '#app'
 
 export default defineNuxtPlugin({
 	name: 'nuxt-vuetify3-dialog-plugin',

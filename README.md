@@ -1,12 +1,3 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: @gabortorma/nuxt-vuetify3-dialog
-- Description: My new Nuxt module
--->
-
 # Nuxt Vuetify3 Dialog module
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -17,8 +8,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 Nuxt module for implementing [vuetify3-dialog](https://github.com/ThomasLeconte/vuetify3-dialog)
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/@gabortorma/nuxt-vuetify3-dialog?file=playground%2Fapp.vue) -->
-  <!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [🏀 Online playground](https://stackblitz.com/github/gabortorma/nuxt-vuetify3-dialog)
 
 ## Features
 
@@ -45,11 +35,14 @@ npm install --save-dev @gabortorma/nuxt-vuetify3-dialog
 
 ```js
 export default defineNuxtConfig({
-  modules: [
-    '@gabortorma/nuxt-vuetify3-dialog'
-    'vuetify-nuxt-module'
-	],
-  ]
+	modules: ['@gabortorma/nuxt-vuetify3-dialog', 'vuetify-nuxt-module'],
+	vuetifyDialog: {
+		defaults: {
+			//You can pass default options for dialogs, dialog's card, snackbars or bottom-sheets here
+		},
+		debug: true, // default: false
+		verbose: true, // default: false
+	},
 })
 ```
 
