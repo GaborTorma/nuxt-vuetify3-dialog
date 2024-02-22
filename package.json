@@ -1,6 +1,6 @@
 {
   "name": "@gabortorma/nuxt-vuetify3-dialog",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Nuxt Vuetify3 dialog module",
   "repository": {
     "url": "git@github.com:GaborTorma/nuxt-vuetify3-dialog.git"

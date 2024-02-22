@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.3
+
+[compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.2...v1.2.3)
+
+### 🏡 Chore
+
+- Upgrade all deps. with pnpm ([8f5c239](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/8f5c239))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v1.2.2
 
 [compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.1...v1.2.2)
