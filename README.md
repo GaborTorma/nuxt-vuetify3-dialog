@@ -4,6 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
+[![code style][code-style-src]][code-style-href]
 
 Nuxt module for implementing [vuetify3-dialog](https://github.com/ThomasLeconte/vuetify3-dialog)
 
@@ -35,14 +36,14 @@ npm install --save-dev @gabortorma/nuxt-vuetify3-dialog
 
 ```js
 export default defineNuxtConfig({
-	modules: ['@gabortorma/nuxt-vuetify3-dialog', 'vuetify-nuxt-module'],
-	vuetifyDialog: {
-		defaults: {
-			//You can pass default options for dialogs, dialog's card, snackbars or bottom-sheets here
-		},
-		debug: true, // default: false
-		verbose: true, // default: false
-	},
+  modules: ['@gabortorma/nuxt-vuetify3-dialog', 'vuetify-nuxt-module'],
+  vuetifyDialog: {
+    defaults: {
+      // You can pass default options for dialogs, dialog's card, snackbars or bottom-sheets here
+    },
+    debug: true, // default: false
+    verbose: true, // default: false
+  },
 })
 ```
 
@@ -84,3 +85,5 @@ npm run release
 [license-href]: https://npmjs.com/package/@gabortorma/nuxt-vuetify3-dialog
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
+[code-style-src]: https://antfu.me/badge-code-style.svg
+[code-style-href]: https://github.com/antfu/eslint-config

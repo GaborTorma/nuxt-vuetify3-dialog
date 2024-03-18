@@ -1,3 +1,3 @@
 export default {
-	"externals": ["vuetify3-dialog"]
+  externals: ['vuetify3-dialog'],
 }
