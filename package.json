@@ -1,7 +1,7 @@
 {
   "name": "@gabortorma/nuxt-vuetify3-dialog",
   "type": "module",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Nuxt Vuetify3 dialog module",
   "license": "MIT",
   "repository": {
