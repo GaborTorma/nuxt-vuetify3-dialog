@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.2.6
+
+[compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.5...v1.2.6)
+
+### 🏡 Chore
+
+- Upgrade deps. ([a48a865](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/a48a865))
+- Use @nuxt/eslint ([b2d0610](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/b2d0610))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v1.2.5
 
 [compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.4...v1.2.5)
