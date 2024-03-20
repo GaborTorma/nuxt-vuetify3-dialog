@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.7
+
+[compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.6...v1.2.7)
+
+### 🏡 Chore
+
+- Remove unused @nuxtjs/eslint-module from deps. ([83e25f7](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/83e25f7))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v1.2.6
 
 [compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.5...v1.2.6)
