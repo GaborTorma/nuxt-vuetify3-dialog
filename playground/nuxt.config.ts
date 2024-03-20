@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: [
+    '@nuxt/eslint',
     '../src/module',
     [
       'vuetify-nuxt-module',
@@ -10,6 +11,15 @@ export default defineNuxtConfig({
       },
     ],
   ],
+
+  eslint: {
+    checker: {
+      configType: 'flat', // workaround for https://github.com/nuxt/eslint/issues/338
+    },
+    config: {
+      standalone: false,
+    },
+  },
 
   vuetify3Dialog: {
     debug: true,
