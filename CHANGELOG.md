@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.2.8
+
+[compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.7...v1.2.8)
+
+### 🏡 Chore
+
+- Upgrade @gabortorma/antfu-eslint-config to 0.4.0 ([a9414b1](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/a9414b1))
+- Upgrade all deps. ([dd97576](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/dd97576))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v1.2.7
 
 [compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.6...v1.2.7)
