@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.9
+
+[compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.8...v1.2.9)
+
+### 🏡 Chore
+
+- Upgrade all deps. ([d4d8a6e](https://github.com/GaborTorma/nuxt-vuetify3-dialog/commit/d4d8a6e))
+
+### ❤️ Contributors
+
+- Gábor Torma <gabor@torma.dev>
+
 ## v1.2.8
 
 [compare changes](https://github.com/GaborTorma/nuxt-vuetify3-dialog/compare/v1.2.7...v1.2.8)
